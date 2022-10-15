@@ -7,3 +7,8 @@ z=y
 y=x 
 x=z 
 print(x,y)
+
+p=10
+d=6
+p , d = d , p
+print(p , d)

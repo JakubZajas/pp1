@@ -10,7 +10,8 @@ sum_kwadrat=n1**2+n2**2+n3**2+n4**2+n5**2
 print(sum_kwadrat)
 quotient=n3/n5
 print(quotient)
-
+if(n3==n4) : print("True") 
+if(n3 != n4 ) : print("False")
 
 
 
