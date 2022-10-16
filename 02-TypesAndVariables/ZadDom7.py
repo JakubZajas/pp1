@@ -1,2 +1,0 @@
-'        spacious       '.strip()
- 
