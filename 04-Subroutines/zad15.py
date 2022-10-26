@@ -1,13 +1,13 @@
 from pickle import FALSE, TRUE
 from mymath import *
 
-guess=generate_number()
-print(guess)
+random=generate_number()
+print(random)
 
-wrong=TRUE
-
-while wrong:
-    x=read_number()
-    if guess==x:
-        wrong= FALSE
-print("Wygrałeś")
+while TRUE:
+ type=read_number()
+ if type==random:
+    print("Wygrałeś")
+    break
+ else:
+    print("nie")
