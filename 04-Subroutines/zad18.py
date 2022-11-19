@@ -5,4 +5,4 @@ def suma(n):
 
     print(result)
 
-suma(7182)
+suma(8888)

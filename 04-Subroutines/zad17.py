@@ -1,5 +1,5 @@
-def letter():
-    x="You never get a second chance to make a first impression"
+def letter(x):
+    
     
     count=0
     for c in x:
@@ -7,4 +7,4 @@ def letter():
             count=count+1
     print(count)
 
-letter()
+letter("You never get a second chance to make a first impression")
