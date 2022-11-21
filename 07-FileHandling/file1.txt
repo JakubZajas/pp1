@@ -1,0 +1,1 @@
+Plik danych, plik komputerowy, zwykle krótko plik – uporządkowany zbiór danych o skończonej długości, posiadający szereg atrybutów i stanowiący dla użytkownika systemu operacyjnego całość. Nazwa pliku nie jest jego częścią, lecz jest przechowywana w systemie plików.

@@ -1,0 +1,5 @@
+file=open("lista.txt","a",encoding="utf-8")
+x=input("Rzecz do kupienia:")
+file.write(x)
+file.write("\n")
+file.close()
