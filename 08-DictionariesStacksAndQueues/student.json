@@ -1,0 +1,12 @@
+{
+  "name": "Kuba",
+  "surname": "Zajas",
+  "age": 19,
+  "date_of_birth": "4.08.2002",
+  "has_health_issues": true,
+  "hobby": [
+    "basketball",
+    "sleeping",
+    "video games"
+  ]
+}

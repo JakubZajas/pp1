@@ -1,0 +1,26 @@
+from stack import *  
+#a
+display()
+#b
+push(2)
+#c
+push(14)
+#d
+push(9)
+#e
+display()
+#f
+pop()
+#g
+display()
+#h
+push(31)
+#i
+push(6)
+#j
+display()
+#k
+pop()
+pop()
+#l
+display()
