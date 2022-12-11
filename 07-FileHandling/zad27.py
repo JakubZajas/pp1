@@ -1,16 +1,21 @@
 import re
 filename='grades.txt'
 code="\w.[0-6]"   
-plik=[]
 suma=0
-with open(filename,"r",encoding="utf-8") as file:
-    lines=file.readlines()
-for line in lines:
-    new_file=re.split(":",line,)
-list=new_file[1]
-new_list=re.split(",",list)
-x=int(len(new_list))
-for i in range(0,x):
-    suma=suma+float(new_list[i])
-wynik=int(suma/x)
-print(wynik)
+lista=[]
+with open(filename,"r") as file:
+    new_file=file.read()
+    for line in new_file:
+        plik=re.split(":",new_file)
+        
+    actual_file=re.split(",",plik[2])
+    for j in actual_file:
+        lista.append(float(j))
+
+    for i in lista:
+        i=float(i)
+        suma=suma+i
+    
+    leng=len(actual_file)
+    avg=suma//leng
+    print(avg)

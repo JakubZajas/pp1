@@ -26,7 +26,7 @@ for j in lista:
         elif j=="/":
             x=int(stack.pop())
             y=int(stack.pop())
-            result=x/y
+            result=y/x
             stack.append(result)
         elif j=="=":
             print(stack.pop())
