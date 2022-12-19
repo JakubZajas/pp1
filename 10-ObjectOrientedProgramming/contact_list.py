@@ -18,6 +18,10 @@ class Contact_List:
 
 from contact import Contact
 c4=Contact("Paola Big","bigpaola@poczta.pl",100200300)
-con=Contact_List()
-con.new_contact(c4)
-con.__str__()
+con=c4.convert()
+conn=Contact_List()
+conn.new_contact(con)
+conn.__str__()
+
+
+float('3.14')

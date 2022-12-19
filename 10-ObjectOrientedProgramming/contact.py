@@ -3,7 +3,8 @@ class Contact:
         self.name=str(Name)
         self.email=str(Email)
         self.phone=str(Phone)
+        
+    def convert(self):
         self.kontakt=self.name+"  "+self.email+"  "+self.phone
-
     def display(self):
         print(self.kontakt)
